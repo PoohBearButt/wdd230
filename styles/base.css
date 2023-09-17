@@ -88,7 +88,11 @@ ul, li, a {
 ul {
   list-style-type: none;
 }
-a.hover{
+
+a {
+  text-decoration: none;
+}
+a:hover{
   color: #E4E4D0;
 }
 
@@ -106,6 +110,23 @@ main {
   justify-content: center;
   
 
+}
+
+footer{
+  /*display: grid;
+  grid-template-columns: auto;
+  justify-content: center;*/
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+
+#copyright {
+  display: flex;
+  flex-wrap: wrap;  
 }
 
 
