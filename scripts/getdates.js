@@ -7,6 +7,8 @@ console.log(chicken);
 
 const dateModded = new Date(document.lastModified);
 //let dateTrim = dateModded.getDate();
+
+document.getElementById("display").innerHTML = chicken;
 document.getElementById("lastModified").innerHTML = dateModded;
 
 
@@ -14,7 +16,7 @@ document.getElementById("lastModified").innerHTML = dateModded;
 //let currentMod = document.lastModified;
 //datePull.innerHTML = currentMod;
 
-document.getElementById("display").innerHTML = chicken;
+
 
 
 
