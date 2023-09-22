@@ -11,15 +11,17 @@ body {
 }
 
 body > nav{
-  display: inline-flex;
+  /*display: inline-flex;*/  /* this will affect the media queries for the menue nav links*/
   padding: 1em 1em 1em 1em;
-  justify-content: space-around;
+  /*justify-content: center;*/
   background-color: #263A29;  
 }
 
 body > ul{
   padding: 0 0 0 0;
   margin: 0 0 0 0;
+  display: inline-flex;
+  justify-content: center;
 }
 
 body > li{
@@ -64,6 +66,7 @@ p {
 img{
   max-width: 300px;
   min-width: 50px;
+  height: auto;
 }
 
 header{
@@ -81,8 +84,9 @@ ul, li, a {
   font-family: Almarai;
   font-weight: bold;
   font-size: 18px;
-  color: #FFEEF4;
-  
+  /*color: #FFEEF4;*/
+  /*color: #FFE5E5;  */
+  color: #F2E3DB;
 }
 
 ul {
@@ -93,7 +97,7 @@ a {
   text-decoration: none;
 }
 a:hover{
-  color: #E4E4D0;
+  color: #A25B5B;
 }
 
 main {
@@ -150,4 +154,7 @@ footer{
   margin: 0 0 0 0;
 }
 
+.card > ul > li > a {
+  color: #263a29;
+}
 

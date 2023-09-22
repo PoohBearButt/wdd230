@@ -1,6 +1,7 @@
 @media screen and (min-width: 800px){
     h1{
-        color: blueviolet;
+        /*color: #8C3333; darker red*/
+        color: #A25B5B; /*follows border color pallet*/
     }
 
     body > nav {
@@ -14,5 +15,16 @@
     body > nav > ul {
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
     }
+
+    /*body > nav > ul > li {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    body > nav > ul > li > a {
+        display: flex;
+        justify-content: space-between;
+    }*/
 }
