@@ -20,11 +20,16 @@ h1 {
 
 main {
 	display: grid;
+	/*needs to span 2 columns?*/
 }
 
 h2 {
 	color: navy;
 	text-align: left;
+}
+
+main > h2 {
+	grid-column: 1rem 1rem;
 }
 
 article p {
@@ -43,3 +48,8 @@ footer {
 	font-size: smaller;
 	text-align: right;
 }
+
+.banner {
+	
+}
+/*step 3, figure out how to address padding issue with div.callout container*/
