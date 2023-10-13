@@ -158,3 +158,40 @@ footer{
   color: #263a29;
 }
 
+@media (min-width: 800px){
+  #menu {
+    display: none;
+  }
+}
+
+/*@media (min-width:)*/
+#menu{
+  font-size: 1.3rem;
+  border:#A25B5B;
+  background-color: #E9EFC0;
+  color:#1C315E;
+  position: absolute;
+  top: 1rem;
+  right:1rem;
+}
+
+#menu::before {
+  content: "🍔";
+}
+
+#menu.open::before {
+  content: "❌";
+}
+
+.open li {
+  display: block;
+  width: 100%;
+}
+
+.open li a {
+  display: block;
+}
+
+.active::before{
+  color:#A25B5B;
+}
