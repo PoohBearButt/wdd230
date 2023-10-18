@@ -158,6 +158,15 @@ footer{
   color: #263a29;
 }
 
+.assignmentlist {
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  align-content: center;
+  align-items: stretch;
+  padding: 1em 1em 1em 1em;
+}
+
 @media (min-width: 800px){
   #menu {
     display: none;
