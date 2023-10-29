@@ -111,7 +111,10 @@ main{
     background-color: #cbbfbb;
     padding: 1em 1em 1em 1em;
 }
-
+.spotlight > h2 {
+    display: flex;
+    justify-content: center;
+}
 .spotlight > section {
     padding: .5em .5em .5em .5em;
     background-color: #a0b2a6;
@@ -120,6 +123,7 @@ main{
 .spotlight > section > h3 {
     display: flex;
     justify-content: center;
+    color:#493843;
 }
 footer{
     margin: 1em 0 1em 0;
