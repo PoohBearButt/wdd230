@@ -2,7 +2,143 @@
     height: auto;
     width: auto;
 }*/
-@media (min-width: 300px) {
 
+/*colors
+#493843 purplegrey
+#61988e tealgrey
+#a0b2a6 pastelgreen
+#cbbfbb palegreypink
+#eabda8 orangepink
+*/
+
+/*@media (min-width: 300px) {
+    
+}*/
+
+body {
+    /*display: grid;
+    justify-content: center;*/
+    max-width:1000px;
+    /*margin: 2.5em 2.5em 2.5em 2.5em;*/
+    padding: 2em 2em 2em 2em;
+    background-color: #a0b2a6;
+}
+
+h1, h2, h3, h4 {
+    font-family: Raleway;
+    color: #61988e;
+    font-weight: 700;
+}
+
+p{
+    font-family: Kanit;
+    color:#493843;
+}
+
+header{
+    padding: 1em 1em 1em 1em;
+    grid-column-gap: 1em;
+    display: flex; 
+    flex-direction: row
+}
+
+nav{
+    display: flex;
+    flex-direction: row; 
+    font-size: 20px;
+    color: #eabda8;
+    text-align: center;
+}
+nav button{
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #cbbfbb;
+
+}
+nav > ul{
+    list-style-type: none;
+    color: #493843;
+}
+
+li{
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #493843;
+}
+
+a:hover{
+    color: #eabda8;
+}
+
+.hero{
+    /*background-size: cover;
+    height: auto;*/
+    
+}
+
+button {
+    width: auto;
+    height: 2.5em;
+    background-color: #eabda8;
+    color: #493843;
+    font-size: 1em;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    row-gap: 1.5em;
+    column-gap: 1em;
+}
+.events{
+    background-color: #cbbfbb;
+    padding: 1em 1em 1em 1em;
+}
+.weather{
+    background-color: #cbbfbb;
+    padding: 1em 1em 1em 1em;
+}
+.spotlight{
+    background-color: #cbbfbb;
+    padding: 1em 1em 1em 1em;
+}
+
+.spotlight > section {
+    padding: .5em .5em .5em .5em;
+    background-color: #a0b2a6;
+}
+
+.spotlight > section > h3 {
+    display: flex;
+    justify-content: center;
+}
+footer{
+    margin: 1em 0 1em 0;
+    background-color: #493843;
+    padding: 1em 1em 1em 1em;
+}
+
+footer > h4 {
+    color: #cbbfbb;
+    display: flex;
+    justify-content: center;
+}
+
+footer > section > p {
+    color: #cbbfbb;
+}
+
+footer > section{
+    display: flex;
+    justify-content: space-evenly;
 }
 

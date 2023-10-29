@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber of Commerce Site</title>
+    <title>Pengu Chamber of Commerce Site</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/medium">
     <link rel="stylesheet" href="./styles/large.css">
-    <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="icon" href="./images/favicon (2).ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- add font preconnect -->
     <!--add a normalizing css page-->
 
@@ -16,7 +22,10 @@
 </head>
 <body>
     <header>
+        <img id="logo" src="./images/antarticblack.png" alt="penguin with map of antartica icon logo for Pengu Chamber of Commerce Site">
         <nav>
+            <button id="hamburger" onclick="toggleMenu()" class="open"> </button>
+            <span>&#x2630;</span><span>&#10005;</span>
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./discover.html">Discover</a></li>
@@ -25,33 +34,44 @@
                 <li><a href="./contact.html">Contact Us</a></li>
             </ul>
         </nav>
-        <img src="./images/hero image.jpg" alt="picture of the antartic at night" width="1000px" height="auto">
+        <img class="hero" src="./images/hero image 600px.jpg" alt="picture of the antartic at night">
         <button> Join now </button>
     </header>
     <main>
-        <section>
+        <section class="events">
             <h3>Events</h3>
             <p>Pie Eating Contest</p>
             <p>Join us for the annual Fall Festival coming this November 15-18</p>
         </section>
-        <section>
+        <section class="weather">
             <h3>Weather</h3>
         </section>
-        <section>
+        <section class="spotlight">
             <h2>Member Spotlights</h2>
-            <h3>Tea Tree</h3>
-            <h3>Tulip Garden</h3>
-            <h3>Chicken Garden</h3>
+            <section>
+                <h3>Tea Tree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eius harum molestiae vel rerum? Non, minima suscipit cumque nulla omnis quisquam maxime? Blanditiis dicta veritatis magni explicabo, suscipit in praesentium.</p>
+            </section>
+            <section>
+                <h3>Tulip Garden</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus quia obcaecati eos vero, illo dolor omnis, libero, nemo optio quis hic! Dolorem placeat magnam minus nam doloremque architecto? Animi, maiores.</p>
+            </section>
+            <section>
+                <h3>Chicken Garden</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vero aperiam repellendus. Nisi quo similique nam hic culpa iure soluta enim omnis a dolores! Reiciendis dolores sit repellat ducimus magnam.</p>
+            </section>
         </section>
         
     </main>
     <footer>
         <h4>Pengu Chamber of Commerce</h4>
-        <p>2564 South Pole Dr. Antartica, 45654</p>
-        <p>pengu@antartic.org</p>
-        <p>+963 4567 1234</p>
-        <p>&#128205;</p> 
-        <p>Locate Us</p>
+        <section>
+            <p>pengu@antartic.org</p>
+            <p>+963 4567 1234</p>
+            <p>2564 South Pole Dr. Antartica, 45654</p>
+            <p>&#128205;Locate Us</p>
+        </section>
+        
     </footer>
 </body>
 
