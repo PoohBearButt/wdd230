@@ -2,3 +2,58 @@
     max-width: 500px;
     max-height: auto;
 }
+
+.colorpallet{
+    display: grid;
+    grid-template-columns: repeat(5, 5.5em);
+    grid-template-rows: 2.5em;
+    grid-row-gap: 1em;
+    grid-column-gap: 1em;
+    justify-content: center;
+    margin: 1em 1em 1em 1em;
+}
+
+.c493843{
+    padding: 1em 1em 1em 1em;
+    background-color: #493843;
+    color: black;
+}
+.c61988e{
+    background-color: #61988e;
+    color: black;
+    padding: 1em 1em 1em 1em;
+}
+.ca0b2a6{
+    background-color: #a0b2a6;
+    color: black;
+    padding: 1em 1em 1em 1em;
+}
+.ccbbfbb{
+    background-color: #cbbfbb;
+    color: black;
+    padding: 1em 1em 1em 1em;
+}
+.ceabda8{
+    background-color: #eabda8;
+    color: black;
+    padding: 1em 1em 1em 1em;
+}
+
+#kanitp{
+    font-family: kanit;
+    font-size: 16px;
+    font-weight: 400;
+}
+#ralewayp{
+    font-family: raleway;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#kanit{
+    font-family: kanit;
+}
+
+#raleway{
+    font-family: raleway;
+}
